@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap1/src/main.cpp
+iostream
+-
+pthread.h
+-
+unistd.h
+-
+

@@ -1,0 +1,32 @@
+C:\Users\Andrzej\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6777.58\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/Andrzej/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/ninja/win/ninja.exe -G Ninja \\wsl$\Ubuntu-20.04\home\andrzej\SO2\project\systemy-operacynne-projekt\Etap1
+-- The C compiler identification is MSVC 19.29.30139.0
+-- The CXX compiler identification is MSVC 19.29.30139.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe - broken
+CMake Error at C:/Users/Andrzej/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestCCompiler.cmake:69 (message):
+  The C compiler
+
+    "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: //wsl$/Ubuntu-20.04/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap1/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):C:/Users/Andrzej/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/ninja/win/ninja.exe cmTC_24317 && ninja: error: '//wsl$/Ubuntu-20.04/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap1/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c', needed by 'CMakeFiles/cmTC_24317.dir/testCCompiler.c.obj', missing and no known rule to make it
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "//wsl$/Ubuntu-20.04/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap1/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "//wsl$/Ubuntu-20.04/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap1/cmake-build-debug/CMakeFiles/CMakeError.log".
