@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Etap2.dir/main.cpp.o CMakeFiles/Etap2.dir/Fork.cpp.o  -o Etap2 
+/usr/bin/c++  -g   CMakeFiles/Etap2.dir/main.cpp.o CMakeFiles/Etap2.dir/Fork/Fork.cpp.o CMakeFiles/Etap2.dir/Philosopher/Philosopher.cpp.o CMakeFiles/Etap2.dir/Table/Table.cpp.o CMakeFiles/Etap2.dir/UI/CLI.cpp.o  -o Etap2 

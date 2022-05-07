@@ -82,10 +82,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/Fork.cpp">
+		<Unit filename="/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/Fork/Fork.cpp">
 			<Option target="Etap2"/>
 		</Unit>
-		<Unit filename="/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/Fork.hpp">
+		<Unit filename="/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/Fork/Fork.hpp">
+			<Option target="Etap2"/>
+		</Unit>
+		<Unit filename="/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/Philosopher/Philosopher.cpp">
+			<Option target="Etap2"/>
+		</Unit>
+		<Unit filename="/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/Philosopher/Philosopher.hpp">
+			<Option target="Etap2"/>
+		</Unit>
+		<Unit filename="/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/Table/Table.cpp">
+			<Option target="Etap2"/>
+		</Unit>
+		<Unit filename="/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/Table/Table.hpp">
+			<Option target="Etap2"/>
+		</Unit>
+		<Unit filename="/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/UI/CLI.cpp">
+			<Option target="Etap2"/>
+		</Unit>
+		<Unit filename="/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/UI/CLI.hpp">
 			<Option target="Etap2"/>
 		</Unit>
 		<Unit filename="/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/main.cpp">

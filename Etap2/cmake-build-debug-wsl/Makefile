@@ -123,32 +123,113 @@ Etap2/fast:
 	$(MAKE) -f CMakeFiles/Etap2.dir/build.make CMakeFiles/Etap2.dir/build
 .PHONY : Etap2/fast
 
-Fork.o: Fork.cpp.o
+Fork/Fork.o: Fork/Fork.cpp.o
 
-.PHONY : Fork.o
+.PHONY : Fork/Fork.o
 
 # target to build an object file
-Fork.cpp.o:
-	$(MAKE) -f CMakeFiles/Etap2.dir/build.make CMakeFiles/Etap2.dir/Fork.cpp.o
-.PHONY : Fork.cpp.o
+Fork/Fork.cpp.o:
+	$(MAKE) -f CMakeFiles/Etap2.dir/build.make CMakeFiles/Etap2.dir/Fork/Fork.cpp.o
+.PHONY : Fork/Fork.cpp.o
 
-Fork.i: Fork.cpp.i
+Fork/Fork.i: Fork/Fork.cpp.i
 
-.PHONY : Fork.i
+.PHONY : Fork/Fork.i
 
 # target to preprocess a source file
-Fork.cpp.i:
-	$(MAKE) -f CMakeFiles/Etap2.dir/build.make CMakeFiles/Etap2.dir/Fork.cpp.i
-.PHONY : Fork.cpp.i
+Fork/Fork.cpp.i:
+	$(MAKE) -f CMakeFiles/Etap2.dir/build.make CMakeFiles/Etap2.dir/Fork/Fork.cpp.i
+.PHONY : Fork/Fork.cpp.i
 
-Fork.s: Fork.cpp.s
+Fork/Fork.s: Fork/Fork.cpp.s
 
-.PHONY : Fork.s
+.PHONY : Fork/Fork.s
 
 # target to generate assembly for a file
-Fork.cpp.s:
-	$(MAKE) -f CMakeFiles/Etap2.dir/build.make CMakeFiles/Etap2.dir/Fork.cpp.s
-.PHONY : Fork.cpp.s
+Fork/Fork.cpp.s:
+	$(MAKE) -f CMakeFiles/Etap2.dir/build.make CMakeFiles/Etap2.dir/Fork/Fork.cpp.s
+.PHONY : Fork/Fork.cpp.s
+
+Philosopher/Philosopher.o: Philosopher/Philosopher.cpp.o
+
+.PHONY : Philosopher/Philosopher.o
+
+# target to build an object file
+Philosopher/Philosopher.cpp.o:
+	$(MAKE) -f CMakeFiles/Etap2.dir/build.make CMakeFiles/Etap2.dir/Philosopher/Philosopher.cpp.o
+.PHONY : Philosopher/Philosopher.cpp.o
+
+Philosopher/Philosopher.i: Philosopher/Philosopher.cpp.i
+
+.PHONY : Philosopher/Philosopher.i
+
+# target to preprocess a source file
+Philosopher/Philosopher.cpp.i:
+	$(MAKE) -f CMakeFiles/Etap2.dir/build.make CMakeFiles/Etap2.dir/Philosopher/Philosopher.cpp.i
+.PHONY : Philosopher/Philosopher.cpp.i
+
+Philosopher/Philosopher.s: Philosopher/Philosopher.cpp.s
+
+.PHONY : Philosopher/Philosopher.s
+
+# target to generate assembly for a file
+Philosopher/Philosopher.cpp.s:
+	$(MAKE) -f CMakeFiles/Etap2.dir/build.make CMakeFiles/Etap2.dir/Philosopher/Philosopher.cpp.s
+.PHONY : Philosopher/Philosopher.cpp.s
+
+Table/Table.o: Table/Table.cpp.o
+
+.PHONY : Table/Table.o
+
+# target to build an object file
+Table/Table.cpp.o:
+	$(MAKE) -f CMakeFiles/Etap2.dir/build.make CMakeFiles/Etap2.dir/Table/Table.cpp.o
+.PHONY : Table/Table.cpp.o
+
+Table/Table.i: Table/Table.cpp.i
+
+.PHONY : Table/Table.i
+
+# target to preprocess a source file
+Table/Table.cpp.i:
+	$(MAKE) -f CMakeFiles/Etap2.dir/build.make CMakeFiles/Etap2.dir/Table/Table.cpp.i
+.PHONY : Table/Table.cpp.i
+
+Table/Table.s: Table/Table.cpp.s
+
+.PHONY : Table/Table.s
+
+# target to generate assembly for a file
+Table/Table.cpp.s:
+	$(MAKE) -f CMakeFiles/Etap2.dir/build.make CMakeFiles/Etap2.dir/Table/Table.cpp.s
+.PHONY : Table/Table.cpp.s
+
+UI/CLI.o: UI/CLI.cpp.o
+
+.PHONY : UI/CLI.o
+
+# target to build an object file
+UI/CLI.cpp.o:
+	$(MAKE) -f CMakeFiles/Etap2.dir/build.make CMakeFiles/Etap2.dir/UI/CLI.cpp.o
+.PHONY : UI/CLI.cpp.o
+
+UI/CLI.i: UI/CLI.cpp.i
+
+.PHONY : UI/CLI.i
+
+# target to preprocess a source file
+UI/CLI.cpp.i:
+	$(MAKE) -f CMakeFiles/Etap2.dir/build.make CMakeFiles/Etap2.dir/UI/CLI.cpp.i
+.PHONY : UI/CLI.cpp.i
+
+UI/CLI.s: UI/CLI.cpp.s
+
+.PHONY : UI/CLI.s
+
+# target to generate assembly for a file
+UI/CLI.cpp.s:
+	$(MAKE) -f CMakeFiles/Etap2.dir/build.make CMakeFiles/Etap2.dir/UI/CLI.cpp.s
+.PHONY : UI/CLI.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +267,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Etap2"
-	@echo "... Fork.o"
-	@echo "... Fork.i"
-	@echo "... Fork.s"
+	@echo "... Fork/Fork.o"
+	@echo "... Fork/Fork.i"
+	@echo "... Fork/Fork.s"
+	@echo "... Philosopher/Philosopher.o"
+	@echo "... Philosopher/Philosopher.i"
+	@echo "... Philosopher/Philosopher.s"
+	@echo "... Table/Table.o"
+	@echo "... Table/Table.i"
+	@echo "... Table/Table.s"
+	@echo "... UI/CLI.o"
+	@echo "... UI/CLI.i"
+	@echo "... UI/CLI.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

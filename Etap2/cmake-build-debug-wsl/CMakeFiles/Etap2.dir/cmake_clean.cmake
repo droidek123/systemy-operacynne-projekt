@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Etap2.dir/Fork.cpp.o"
+  "CMakeFiles/Etap2.dir/Fork/Fork.cpp.o"
+  "CMakeFiles/Etap2.dir/Philosopher/Philosopher.cpp.o"
+  "CMakeFiles/Etap2.dir/Table/Table.cpp.o"
+  "CMakeFiles/Etap2.dir/UI/CLI.cpp.o"
   "CMakeFiles/Etap2.dir/main.cpp.o"
   "Etap2"
   "Etap2.pdb"

@@ -70,32 +70,77 @@ CMakeFiles/Etap2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Etap2.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/main.cpp -o CMakeFiles/Etap2.dir/main.cpp.s
 
-CMakeFiles/Etap2.dir/Fork.cpp.o: CMakeFiles/Etap2.dir/flags.make
-CMakeFiles/Etap2.dir/Fork.cpp.o: ../Fork.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Etap2.dir/Fork.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Etap2.dir/Fork.cpp.o -c /home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/Fork.cpp
+CMakeFiles/Etap2.dir/Fork/Fork.cpp.o: CMakeFiles/Etap2.dir/flags.make
+CMakeFiles/Etap2.dir/Fork/Fork.cpp.o: ../Fork/Fork.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Etap2.dir/Fork/Fork.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Etap2.dir/Fork/Fork.cpp.o -c /home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/Fork/Fork.cpp
 
-CMakeFiles/Etap2.dir/Fork.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Etap2.dir/Fork.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/Fork.cpp > CMakeFiles/Etap2.dir/Fork.cpp.i
+CMakeFiles/Etap2.dir/Fork/Fork.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Etap2.dir/Fork/Fork.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/Fork/Fork.cpp > CMakeFiles/Etap2.dir/Fork/Fork.cpp.i
 
-CMakeFiles/Etap2.dir/Fork.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Etap2.dir/Fork.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/Fork.cpp -o CMakeFiles/Etap2.dir/Fork.cpp.s
+CMakeFiles/Etap2.dir/Fork/Fork.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Etap2.dir/Fork/Fork.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/Fork/Fork.cpp -o CMakeFiles/Etap2.dir/Fork/Fork.cpp.s
+
+CMakeFiles/Etap2.dir/Philosopher/Philosopher.cpp.o: CMakeFiles/Etap2.dir/flags.make
+CMakeFiles/Etap2.dir/Philosopher/Philosopher.cpp.o: ../Philosopher/Philosopher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Etap2.dir/Philosopher/Philosopher.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Etap2.dir/Philosopher/Philosopher.cpp.o -c /home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/Philosopher/Philosopher.cpp
+
+CMakeFiles/Etap2.dir/Philosopher/Philosopher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Etap2.dir/Philosopher/Philosopher.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/Philosopher/Philosopher.cpp > CMakeFiles/Etap2.dir/Philosopher/Philosopher.cpp.i
+
+CMakeFiles/Etap2.dir/Philosopher/Philosopher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Etap2.dir/Philosopher/Philosopher.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/Philosopher/Philosopher.cpp -o CMakeFiles/Etap2.dir/Philosopher/Philosopher.cpp.s
+
+CMakeFiles/Etap2.dir/Table/Table.cpp.o: CMakeFiles/Etap2.dir/flags.make
+CMakeFiles/Etap2.dir/Table/Table.cpp.o: ../Table/Table.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Etap2.dir/Table/Table.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Etap2.dir/Table/Table.cpp.o -c /home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/Table/Table.cpp
+
+CMakeFiles/Etap2.dir/Table/Table.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Etap2.dir/Table/Table.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/Table/Table.cpp > CMakeFiles/Etap2.dir/Table/Table.cpp.i
+
+CMakeFiles/Etap2.dir/Table/Table.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Etap2.dir/Table/Table.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/Table/Table.cpp -o CMakeFiles/Etap2.dir/Table/Table.cpp.s
+
+CMakeFiles/Etap2.dir/UI/CLI.cpp.o: CMakeFiles/Etap2.dir/flags.make
+CMakeFiles/Etap2.dir/UI/CLI.cpp.o: ../UI/CLI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Etap2.dir/UI/CLI.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Etap2.dir/UI/CLI.cpp.o -c /home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/UI/CLI.cpp
+
+CMakeFiles/Etap2.dir/UI/CLI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Etap2.dir/UI/CLI.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/UI/CLI.cpp > CMakeFiles/Etap2.dir/UI/CLI.cpp.i
+
+CMakeFiles/Etap2.dir/UI/CLI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Etap2.dir/UI/CLI.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/UI/CLI.cpp -o CMakeFiles/Etap2.dir/UI/CLI.cpp.s
 
 # Object files for target Etap2
 Etap2_OBJECTS = \
 "CMakeFiles/Etap2.dir/main.cpp.o" \
-"CMakeFiles/Etap2.dir/Fork.cpp.o"
+"CMakeFiles/Etap2.dir/Fork/Fork.cpp.o" \
+"CMakeFiles/Etap2.dir/Philosopher/Philosopher.cpp.o" \
+"CMakeFiles/Etap2.dir/Table/Table.cpp.o" \
+"CMakeFiles/Etap2.dir/UI/CLI.cpp.o"
 
 # External object files for target Etap2
 Etap2_EXTERNAL_OBJECTS =
 
 Etap2: CMakeFiles/Etap2.dir/main.cpp.o
-Etap2: CMakeFiles/Etap2.dir/Fork.cpp.o
+Etap2: CMakeFiles/Etap2.dir/Fork/Fork.cpp.o
+Etap2: CMakeFiles/Etap2.dir/Philosopher/Philosopher.cpp.o
+Etap2: CMakeFiles/Etap2.dir/Table/Table.cpp.o
+Etap2: CMakeFiles/Etap2.dir/UI/CLI.cpp.o
 Etap2: CMakeFiles/Etap2.dir/build.make
 Etap2: CMakeFiles/Etap2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Etap2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Etap2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Etap2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/Fork.cpp" "/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/cmake-build-release-wsl/CMakeFiles/Etap2.dir/Fork.cpp.o"
+  "/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/Fork/Fork.cpp" "/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/cmake-build-release-wsl/CMakeFiles/Etap2.dir/Fork/Fork.cpp.o"
+  "/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/Philosopher/Philosopher.cpp" "/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/cmake-build-release-wsl/CMakeFiles/Etap2.dir/Philosopher/Philosopher.cpp.o"
+  "/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/Table/Table.cpp" "/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/cmake-build-release-wsl/CMakeFiles/Etap2.dir/Table/Table.cpp.o"
+  "/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/UI/CLI.cpp" "/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/cmake-build-release-wsl/CMakeFiles/Etap2.dir/UI/CLI.cpp.o"
   "/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/main.cpp" "/home/andrzej/SO2/project/systemy-operacynne-projekt/Etap2/cmake-build-release-wsl/CMakeFiles/Etap2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
