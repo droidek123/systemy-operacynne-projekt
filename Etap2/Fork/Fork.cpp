@@ -1,19 +1,9 @@
 //
-// Created by Andrzej on 06.05.2022.
+// Created by Andrzej on 22.05.2022.
 //
 
 #include "Fork.hpp"
 
-int Fork::getId() const {
-    return id;
-}
+using namespace std;
 
-void Fork::setId(int id) {
-    Fork::id = id;
-}
-
-Fork::Fork(int id) : id(id) {}
-
-Fork::~Fork() {
-
-}
+Fork::Fork() = default;

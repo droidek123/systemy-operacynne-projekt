@@ -1,49 +1,38 @@
 //
-// Created by Andrzej on 06.05.2022.
+// Created by Andrzej on 22.05.2022.
 //
 
 #ifndef ETAP2_PHILOSOPHER_HPP
 #define ETAP2_PHILOSOPHER_HPP
 
-#include <atomic>
+#include <random>
+#include <thread>
 #include "../Fork/Fork.hpp"
-#include "../Table/Table.hpp"
 
-enum PhilosopherState {
-    NONE,
-    THINKING,
-    EATING,
-    WAITING
-};
+using namespace std;
 
 class Philosopher {
-    int id;
-    Fork &left_hand;
-    Fork &right_hand;
-    Table &table;
-    std::thread t;
-    int progress_in_eating;
-    std::atomic<PhilosopherState> philosopher_state = {WAITING};
-    std::atomic<bool> is_living = {false};
-    std::mutex mutex;
-public:
-    Philosopher(int id, Fork &leftHand, Fork &rightHand, Table &t);
 
+    string name;
+    int appetite;
+    int food_eaten;
+    Fork &left_fork;
+    Fork &right_fork;
+    thread td;
+    mutex &g_lock;
+    mt19937 rng{random_device{}()};
+    bool stopped;
+
+public:
+    Philosopher(string, int, Fork &, Fork &, mutex &);
+    ~Philosopher();
     void eat();
     void think();
-    void live();
-
-    int getId() const;
-
-    int getProgressInEating() const;
-
-    Fork &getLeftHand() const;
-
-    Fork &getRightHand() const;
-
-    const std::atomic<PhilosopherState> &getPhilosopherState() const;
-
-    void setIsLiving(const std::atomic<bool> &isLiving);
+    void randomize(int, int);
+    void print(const string &);
+    void stop();
+    void run();
+    void join();
 };
 
 
